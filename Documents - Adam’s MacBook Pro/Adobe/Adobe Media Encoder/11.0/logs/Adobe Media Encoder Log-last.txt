@@ -1,0 +1,7 @@
+Log file created: Fri Mar  9 14:17:27 2018
+-------------------------------------------
+Ticks = 529      <140736746685376> <AMEApp> <0> Dolby codec permission check failed
+Ticks = 31203      <140736746685376> <AMEApp> <0> Time taken to load MediaCore plugins: 29739.3 milliseconds.
+Ticks = 32067      <140736746685376> <AMEApp> <1> Entering RunEventLoop
+Ticks = 114338      <123145376526336> <ExporterHost::BeginThreadExport> <5> Exporter finished in : 54.4193 seconds. Result code: 0 Destination:/private/var/folders/lf/1fxqm5vd4r513rs50f29t5bc0000gn/T/TemporaryItems/Untitled Project_AME/IMG_4654.mp4
+Ticks = 260306      <123145375989760> <ExporterHost::BeginThreadExport> <5> Exporter finished in : 49.376 seconds. Result code: 0 Destination:/private/var/folders/lf/1fxqm5vd4r513rs50f29t5bc0000gn/T/TemporaryItems/Untitled Project_AME/IMG_4654_1.mp4

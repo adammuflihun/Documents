@@ -1,0 +1,458 @@
+Log file created: Thu Dec  5 19:17:33 2019
+-------------------------------------------
+Ticks = 496      <123145315725312> <AnywhereLocalClient> <5> Local Hub HTTP port retrieved, port: 60713
+Ticks = 1030      <4343770560> <DS> <5> GPUSniffer launching with test mask 254
+Ticks = 1233      <4343770560> <DS> <5> GPU Sniffer Output:
+GPUSniffer testing 254
+Initializing GPU Tech:
+	Try CUDA: 1
+	Try OpenCL: 1
+	Try Metal: 1
+	Try Vulkan: 1
+	KernelLoadAction: 0
+	UseOpenGLContext: 0x0
+	UseDeviceContext: 0x0
+	UseD3D11Context: 0x0
+No CUDA devices Found
+OpenCL system device count: 2
+	Found OpenCL device Name: AMD Radeon Pro 460 Compute Engine supportsSSG: 0
+	    No capability restrictions detected - adding device to list
+	Found OpenCL device Name: Intel(R) HD Graphics 530 supportsSSG: 0
+	    No capability restrictions detected - adding device to list
+Metal system device count: 2
+	Found Metal device index: 0 Name: AMD Radeon Pro 460 Compute Engine
+	    No capability restrictions detected - adding device to list
+	Found Metal device index: 1 Name: Intel(R) HD Graphics 530
+	    No capability restrictions detected - adding device to list
+Error initializing RED SDK: 3
+Finished gpu initialization in 0 ms
+
+--- OpenGL Info ---
+Vendor: ATI Technologies Inc.
+Renderer: AMD Radeon Pro 460 OpenGL Engine
+OpenGL Version: 2.1 ATI-3.2.24
+GLSL Version: 1.20
+Monitors: 1
+Monitor 0 properties -
+   Size: (0, 0, 1680, 1050)
+   Max texture size: 16384
+   Supports non-power of two: 1
+   Shaders 444: 1
+   Shaders 422: 1
+   Shaders 420: 1
+
+
+--- GPU Computation Info ---
+Found 4 devices supporting GPU computation.
+OpenCL Device 0 - 
+   Name: AMD Radeon Pro 460 Compute Engine
+   Vendor: AMD (Apple platform)
+   Capability: 1.2
+   Driver: 1.2
+   Total Video Memory: 4096MB
+OpenCL Device 1 - 
+   Name: Intel(R) HD Graphics 530
+   Vendor: Intel (Apple platform)
+   Capability: 1.2
+   Driver: 1.2
+   Total Video Memory: 1536MB
+Metal Device 2 - 
+   Name: AMD Radeon Pro 460 Compute Engine
+   Vendor: AMD (Apple platform)
+   Capability: 10000
+   Driver: 0
+   Total Video Memory: 4096MB
+Metal Device 3 - 
+   Name: Intel(R) HD Graphics 530
+   Vendor: Intel (Apple platform)
+   Capability: 10000
+   Driver: 0
+   Total Video Memory: 1536MB
+Ticks = 1233      <4343770560> <DS> <5> GPU Sniffer result: 110
+Ticks = 4589      <4343770560> <AMEApp> <0> Time taken to load MediaCore plugins: 3219.62 milliseconds.
+Ticks = 9923      <123145315188736> <ALOG> <5> U Birth U Birth
+Ticks = 9923      <123145315188736> <ALOG> <5> U CPU Data LogicalCores:0, PhysicalCores:0, MMX:1, SSE:1 SSE2:1, SSE3:0, SSSE(MNI):0, SSE4_1:0, SSE4_2:0
+Ticks = 9923      <123145315188736> <ALOG> <5> U Birth U Hog Birth
+Ticks = 10181      <4343770560> <AMEApp> <1> Entering RunEventLoop
+Ticks = 10298      <4343770560> <EACL.HostedLogin> <5> Entitlement record did not pass application entitlement policy, ccAdobeID: "adam.mu@students.amikom.ac.id", ccPersonGUID: "E9C751945C78983D0A495DDA@AdobeID"
+Ticks = 10298      <4343770560> <EACL.HostedLogin> <4> Non-entitled response received, ccAdobeID: "adam.mu@students.amikom.ac.id", ccPersonGUID: "E9C751945C78983D0A495DDA@AdobeID", error_code: "403010"
+Ticks = 10299      <123145315725312> <EACL> <4> PollingResourceMonitorImpl::OnRefreshCompleted: Failed to complete polling request, requestID: "d778e6ab-fc12-4875-996a-e1a9b7b007ad", dvacore::Result: -1606090751, resourceURL: "http://127.0.0.1:60713/api/remoteLogin", expression: "(! result)"
+Ticks = 10301      <123145315188736> <AELibInit> <5> aelib::Birth took 377.546 milliseconds
+Ticks = 10301      <123145315188736> <ALOG> <5> FILE Birth FILE Birth
+Ticks = 10301      <123145315188736> <ALOG> <5> M Birth M Birth
+Ticks = 10302      <123145315188736> <ALOG> <5> RND Birth RND Birth
+Ticks = 10302      <123145315188736> <ALOG> <5> PREF Birth PREF Birth
+Ticks = 10385      <123145315188736> <ALOG> <5> VAL Birth VAL Birth
+Ticks = 10385      <123145315188736> <ALOG> <5> MC Birth MC Birth
+Ticks = 10563      <123145315188736> <ALOG> <5> aelib InitIterator AXE8 v:3.8.0 Loaded
+Ticks = 10563      <123145315188736> <ALOG> <5> COR Birth COR Birth
+Ticks = 10605      <123145315188736> <ALOG> <5> COR Birth COR Birth Complete
+Ticks = 10608      <123145315188736> <ALOG> <5> PLUG Birth PLUG Birth
+Ticks = 10608      <123145315188736> <ALOG> <5> TDB Birth TDB Birth
+Ticks = 10608      <123145315188736> <ALOG> <5> TDB Birth TDB StreamBase Birth
+Ticks = 10608      <123145315188736> <ALOG> <5> PF Birth PF Birth
+Ticks = 10608      <123145315188736> <ALOG> <5> P Birth P Birth
+Ticks = 10608      <123145315188736> <ALOG> <5> TXT Birth TXT Birth
+Ticks = 10768      <123145315188736> <ALOG> <5> PREM MediaCoreData About to Init PRM
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN PS3 Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN RLA Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN CIN Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN EI Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN ZPIC Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN JSX Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN YM Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN PS Birth
+Ticks = 10769      <123145315188736> <ALOG> <5> PIN Birth PIN PST Birth
+Ticks = 10770      <123145315188736> <ALOG> <5> PIN Birth PIN D_MC Birth
+Ticks = 10773      <123145315188736> <ALOG> <5> SND Birth SND Birth
+Ticks = 10773      <123145315188736> <ALOG> <5> OM Birth OM Birth
+Ticks = 10775      <123145315188736> <ALOG> <5> FLT Birth ALOG Birth
+Ticks = 10775      <123145315188736> <ALOG> <5> PR Birth PR Birth
+Ticks = 11001      <123145315188736> <ALOG> <5> BEE Birth BEE Birth
+Ticks = 11001      <123145315188736> <BEE_WorkQueue> <5> thread main stack size: 524288
+Ticks = 11001      <123145356673024> <BEE_WorkQueue> <5> thread render stack size: 8388608
+Ticks = 11001      <123145357209600> <BEE_WorkQueue> <5> thread render stack size: 524288
+Ticks = 11001      <123145357746176> <BEE_WorkQueue> <5> thread render stack size: 524288
+Ticks = 11002      <123145315188736> <BEE_WorkQueue> <5> BEE_Project::TimestampGetNext ZANZIBAR-3: cannot produce timestamp, frozen=0, open=0
+Ticks = 11002      <123145315188736> <BEE_WorkQueue> <5> BEE_Project::TimestampGetNext ZANZIBAR-3: cannot produce timestamp, frozen=0, open=0
+Ticks = 11002      <123145315188736> <BEE_WorkQueue> <5> BEE_Project::TimestampGetNext ZANZIBAR-3: cannot produce timestamp, frozen=0, open=0
+Ticks = 11002      <123145315188736> <ALOG> <5> BEE Birth BEE Eval Birth
+Ticks = 11014      <123145315188736> <ALOG> <5> BEE Birth BEE Stream Birth
+Ticks = 11188      <123145315188736> <ALOG> <5> BEE Birth BEE TextAnimatorDispatch Birth
+Ticks = 11190      <123145315188736> <ALOG> <5> BEE Birth BEE TextListener Birth
+Ticks = 11190      <123145315188736> <ALOG> <5> BEE Birth BEE StyleListener Birth
+Ticks = 11190      <123145315188736> <ALOG> <5> FRP Birth FRP PinListener Birth
+Ticks = 11197      <123145315188736> <MEE_Plugins> <5> /Applications/Adobe Media Encoder 2020/Adobe Media Encoder 2020.app/Contents/Plug-Ins/(AfterEffectsLib)
+Ticks = 11480      <123145315188736> <Plug_Scan> <1> Total: 0.283116, PiPL: 0.120379
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE FreePin3
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Geometry2
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Geometry
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Brush Strokes
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Solid Fill
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Ramp
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Echo
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE WRPMESH
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Solid Composite
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Turbulent Displace
+Ticks = 11560      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Delay
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE RESHAPE
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Lightning
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE AIF Perlin Noise 3D
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Roughen Edges
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Paint Bucket
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Brightness & Contrast 2
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Vibrance
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Black&White
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE PS Median
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE PhotoFilterPS
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE SelectiveColor
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Compound Arithmetic
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: VISINF Grain Implant
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Drop Shadow
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE 3D Tracker
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Lens Flare
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Sharpen
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE ID MATTE
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Bevel Alpha
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Difference
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud BT
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Laser
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Vector Paint
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Tile
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE HUE SATURATION
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Denoise
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Gaussian Blur 2
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Exposure2
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Exposure
+Ticks = 11561      <123145315188736> <FLT> <4> Load success Effect: ADBE Compander
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Find Edges
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise HLS2
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise HLS
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Link
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Fractal Noise
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Mirror
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise HLS Auto2
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise HLS Auto
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Smart Blur
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Blend
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Color Gradients
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Gamma/Pedestal/Gain2
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Cineon Converter2
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Cineon Converter
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Channel Combiner
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Fractal Noise
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE AutoColor
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE ATG Extract
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Median
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: APC Vegas
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: APC Colorama
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Camera Lens Blur
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Bulge
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Threshold2
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Threshold
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Glow
+Ticks = 11562      <123145315188736> <FLT> <4> Load success Effect: ADBE Simple Choker
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Linear Color Key2
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Set Channels
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Brightness & Contrast
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Easy Levels2
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Easy Levels
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Pro Levels2
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Pro Levels
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Bevel Edges
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Minimax
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Corner Pin
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Eyedropper Fill
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Sharpen
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Box Blur2
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Box Blur
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE 4ColorGradient
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Broadcast Colors
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Key
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Chromatic Aberrations
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Photo Filter
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE ELLIPSE
+Ticks = 11563      <123145315188736> <FLT> <4> Load success Effect: ADBE Param EQ
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud HiLo
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE AutoContrast
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Posterize Time
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE BEZMESH
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Reverse
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Radial Wipe
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Displacement Map
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Converter
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Basic 3D
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise Alpha
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise Alpha2
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE AutoLevels
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: VISINF Grain Removal
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Polar Coordinates
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Timecode
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Scatter
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Playgnd
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE AUX CHANNEL EXTRACT
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Write-on
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Checkerboard
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE SubspaceStabilizer
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE PS Arbitrary Map
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Digital Glitch
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Unsharp Mask
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Unsharp Mask2
+Ticks = 11564      <123145315188736> <FLT> <4> Load success Effect: ADBE Extract
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE DEPTH MATTE
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Texturize
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Linear Wipe
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Balance 2
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Lightning 2
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Scribble Fill
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Stroke
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Invert
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Reverb
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Grid
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE GROW BOUNDS
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Venetian Blinds
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Modulator
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Equalize
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud_Flange
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: APC CardWipeCam
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise2
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Noise
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Strobe
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: APC Wave World
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Shift Channels
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Matte Choker
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Radial Shadow
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Tritone
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE CHANNEL MIXER
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE CurvesCustom
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Luma Key
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE SCHMEAR
+Ticks = 11565      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Difference Key
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: APC Foam
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Balance (HLS)
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: APC Caustics
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Bevel Emboss
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Channel Blur
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Wave Warp
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Deflicker
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Spill Suppressor
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Optics Compensation
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Timewarp
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE OFMotionBlur
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Rolling Shutter
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Rotate Sphere
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Apply Color LUT2
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Apply Color LUT
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Mosaic
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Tint
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: APC CardDanceCam
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Gaussian Blur
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Lumetri
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Fill
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: APC Shatter
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Set Matte2
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Set Matte3
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE Compound Blur
+Ticks = 11566      <123145315188736> <FLT> <4> Load success Effect: ADBE LIQUIFY
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Three-Way Color Corrector
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE IRIS_WIPE
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Drop Shadow
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Tone
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Basic Text2
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE AudWave
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE AudSpect
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Magnify
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Bilateral
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Blur
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE MESH WARP
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: VISINF Grain Duplication
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Upscale
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Twirl
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE FOG_3D
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Emboss
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE 3D Glasses2
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE 3D Glasses
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Change Color
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Circle
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Glo2
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Inner Glow
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Leave Color
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Inner Shadow
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Calculations
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Time Displacement
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Difference Matte2
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Block Dissolve
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Cell Pattern
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Motion Blur
+Ticks = 11567      <123145315188736> <FLT> <4> Load success Effect: ADBE Spherize
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Emboss
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Gradient Wipe
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: APC Radio Waves
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Radial Blur
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Viewer
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE PSL Outer Glow
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Reduce Interlace Flicker
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Fast Blur
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE ShadowHighlight
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: Mettle SkyBox Project 2D
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Layer Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Angle Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Dropdown Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Point Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Point3D Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Slider Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Checkbox Control
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Range
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Cartoonify
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE HDR ToneMap
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE ProfileToProfile
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Arithmetic
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Dust & Scratches
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE DigitalVideoLimiter
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Ripple
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Change To Color
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Numbers2
+Ticks = 11568      <123145315188736> <FLT> <4> Load success Effect: ADBE Fractal
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Offset
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Aud Stereo Mixer
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Alpha Levels3
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Alpha Levels2
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Color Balance
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Remove Color Matting
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Posterize
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE Path Text
+Ticks = 11569      <123145315188736> <FLT> <4> Load success Effect: ADBE DEPTH FIELD
+Ticks = 11601      <123145315188736> <MEE_Plugins> <4> AEGP plugin loaded: Advanced 3D
+Ticks = 11612      <123145315188736> <MEE_Plugins> <4> AEGP plugin loaded: Durer
+Ticks = 11740      <123145315188736> <AE.AddGPUFilters> <5> Begin - aelib AddGPUFilters
+Ticks = 11756      <123145315188736> <AE.AddGPUFilters> <5> End - aelib AddGPUFilters [15.9568 milliseconds elapsed]
+Ticks = 12696      <123145315188736> <MEE_Plugins> <2> Error while loading AEGP plugin: Pro Import, error: 3
+Ticks = 13014      <123145366147072> <ALOG> <5> COR CORp_RegisterPSLThread initialized PSL
+Ticks = 13144      <123145315188736> <ALOG> <5> U U_EvaluateMemoryInUseAdjustment resident=830312448, virtual=6789541888, delta=-5959229440
+Ticks = 13144      <123145315188736> <ALOG> <5> U U_SetMemoryInUseAdjustment setting adjustment from 0 to -5959229440
+Ticks = 20368      <4343770560> <AMEApp> <1> Exited RunEventLoop
+Ticks = 20525      <4343770560> <ALOG> <5> U U_SetMemoryInUseAdjustment setting adjustment from -5959229440 to 0
+Ticks = 20526      <4343770560> <BEE_WorkQueue> <5> BEE_WorkQueue_PreCloseProject start
+Ticks = 20527      <4343770560> <BEE_WorkQueue> <5> BEE_WorkQueue_PreCloseProject end
+Ticks = 20527      <4343770560> <ALOG> <5> MC MC_StopAllAsyncWork MC_StopAllAsyncWork
+Ticks = 20528      <4343770560> <ALOG> <5> AEGPDriver Unload Skipping unloading of Anywhere
+Ticks = 20528      <4343770560> <ALOG> <5> BEE Death BEE Death
+Ticks = 20528      <4343770560> <ALOG> <5> BEE Command Set Scrap
+Ticks = 20530      <4343770560> <ALOG> <5> PR Death PR Death
+Ticks = 20530      <4343770560> <ALOG> <5> FLT Death FLT Death
+Ticks = 20595      <4343770560> <ALOG> <5> OM Death OM Death
+Ticks = 20596      <4343770560> <ALOG> <5> SND Death SND Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN CIN Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN EI Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN YM Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN JSX Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN PS3 Death
+Ticks = 20596      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN RLA Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN ZPIC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN PS Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20597      <4343770560> <ALOG> <5> PIN Death PIN MC Death
+Ticks = 20607      <123145366147072> <ALOG> <5> COR CORp_ShutdownPSL successfully shutdown AdobePSL
+Ticks = 20611      <4343770560> <ALOG> <5> TXT Death TXT Death
+Ticks = 20611      <4343770560> <ALOG> <5> TXT Death TXT_ShutdownGlobalDocumentResources called successfully.
+Ticks = 20612      <4343770560> <ALOG> <5> TXT Death TXT_FontServer::FontServer ()->FreeFontServer() called successfully.
+Ticks = 20612      <4343770560> <ALOG> <5> TXT Death SLO::FreeAutoPtrInternalMemory() called successfully.
+Ticks = 20612      <4343770560> <ALOG> <5> TXT Death SLO::SLOTerminate () called successfully.
+Ticks = 20612      <4343770560> <ALOG> <5> TXT Death COR_BIBCLIENTTERMINATE_IF_NEEDED called successfully.
+Ticks = 20612      <4343770560> <ALOG> <5> TXT Death U_Context::UnregisterState(TXT_GlobalState::S_Name) called successfully.
+Ticks = 20613      <4343770560> <ALOG> <5> P Death P Death
+Ticks = 20613      <4343770560> <ALOG> <5> PF Death PF Death
+Ticks = 20613      <4343770560> <ALOG> <5> TDB Death TDB Death
+Ticks = 20613      <4343770560> <ALOG> <5> TDB Death TDB StreamBase Death
+Ticks = 20613      <4343770560> <ALOG> <5> PLUG Death PLUG Death
+Ticks = 20639      <4343770560> <ALOG> <5> MC Death MC Death
+Ticks = 20640      <4343770560> <ALOG> <5> VAL Death VAL Death
+Ticks = 20640      <4343770560> <ALOG> <5> PREF Death PREF Death
+Ticks = 20641      <4343770560> <ALOG> <5> RND Death RND Death
+Ticks = 20641      <4343770560> <ALOG> <5> M Death M Death
+Ticks = 20641      <4343770560> <ALOG> <5> FILE Death FILE Death
+Ticks = 20642      <4343770560> <ALOG> <5> U Death U Death
+-------------------------------------------
+Log file closed: Thu Dec  5 19:17:53 2019
+

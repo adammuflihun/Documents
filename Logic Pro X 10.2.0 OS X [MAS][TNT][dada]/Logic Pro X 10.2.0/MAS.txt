@@ -1,0 +1,1 @@
+- Mount image and drag the application icon in the Applications folder

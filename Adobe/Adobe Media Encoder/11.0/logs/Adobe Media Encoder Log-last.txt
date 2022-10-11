@@ -1,0 +1,15 @@
+Log file created: Thu Feb 22 15:03:51 2018
+-------------------------------------------
+Ticks = 922      <140736226493376> <AMEApp> <0> Dolby codec permission check failed
+Ticks = 1165      <140736226493376> <DynamicLink> <5> Attempting to launch dynamiclinkmanager
+Ticks = 1165      <140736226493376> <DynamicLink> <5> /Applications/Adobe Media Encoder CC 2017/Adobe Media Encoder CC 2017.app/Contents/dynamiclinkmanager.app
+Ticks = 2165      <140736226493376> <DynamicLink> <5> Attempting to launch dynamiclinkmanager
+Ticks = 2165      <140736226493376> <DynamicLink> <5> /Applications/Adobe Media Encoder CC 2017/Adobe Media Encoder CC 2017.app/Contents/dynamiclinkmanager.app
+Ticks = 12163      <140736226493376> <AMEApp> <0> Time taken to load MediaCore plugins: 7752.77 milliseconds.
+Ticks = 18373      <140736226493376> <AMEApp> <1> Entering RunEventLoop
+Ticks = 1452607      <123145421447168> <ExporterHost::BeginThreadExport> <5> Exporter finished in : 43.7814 seconds. Result code: 1 Destination:/Users/adambagusm/Desktop/instagram_AME/Comp 1_1.mp4
+Ticks = 1500548      <123145409642496> <ExporterHost::BeginThreadExport> <5> Exporter finished in : 38.338 seconds. Result code: 0 Destination:/Users/adambagusm/My Project/Instagram /instagram_AME/Comp 1.mp4
+Ticks = 69984067      <140736226493376> <AMEApp> <1> Exited RunEventLoop
+-------------------------------------------
+Log file closed: Fri Feb 23 10:30:15 2018
+

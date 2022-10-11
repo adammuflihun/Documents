@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Set Version="1" Index="0">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/exif/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/exif/1.0/</ParentId>
+			<EntryName>DateTimeDigitized</EntryName>
+			<PathDescription>DateTimeDigitized</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://ns.adobe.com/xap/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/xap/1.0/</ParentId>
+			<EntryName>CreateDate</EntryName>
+			<PathDescription>CreateDate</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+	</Set>
+	<Set Version="1" Index="1">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/tiff/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/tiff/1.0/</ParentId>
+			<EntryName>Artist</EntryName>
+			<PathDescription>Artist</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+			<ParentId>http://purl.org/dc/elements/1.1/</ParentId>
+			<EntryName>creator</EntryName>
+			<PathDescription>creator</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+	</Set>
+	<Set Version="1" Index="2">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/tiff/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/tiff/1.0/</ParentId>
+			<EntryName>Copyright</EntryName>
+			<PathDescription>Copyright</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+			<ParentId>http://purl.org/dc/elements/1.1/</ParentId>
+			<EntryName>rights</EntryName>
+			<PathDescription>rights</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+	</Set>
+	<Set Version="1" Index="3">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/tiff/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/tiff/1.0/</ParentId>
+			<EntryName>DateTime</EntryName>
+			<PathDescription>DateTime</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://ns.adobe.com/xap/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/xap/1.0/</ParentId>
+			<EntryName>ModifyDate</EntryName>
+			<PathDescription>ModifyDate</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+	</Set>
+	<Set Version="1" Index="4">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/tiff/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/tiff/1.0/</ParentId>
+			<EntryName>ImageDescription</EntryName>
+			<PathDescription>ImageDescription</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+			<ParentId>http://purl.org/dc/elements/1.1/</ParentId>
+			<EntryName>description</EntryName>
+			<PathDescription>description</PathDescription>
+			<Internal>false</Internal>
+		</Path>
+	</Set>
+	<Set Version="1" Index="5">
+		<Path Version="1" Index="0">
+			<Namespace>http://ns.adobe.com/tiff/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/tiff/1.0/</ParentId>
+			<EntryName>Software</EntryName>
+			<PathDescription>Software</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+		<Path Version="1" Index="1">
+			<Namespace>http://ns.adobe.com/xap/1.0/</Namespace>
+			<ParentId>http://ns.adobe.com/xap/1.0/</ParentId>
+			<EntryName>CreatorTool</EntryName>
+			<PathDescription>CreatorTool</PathDescription>
+			<Internal>true</Internal>
+		</Path>
+	</Set>
+</PremiereData>

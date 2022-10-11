@@ -1,0 +1,23 @@
+------------------
+STL Ignite - Libra
+------------------
+
+Version 1.2.0
+- IR Name tooltip now showing the full IR file path
+- IR Slot parameters can now be entered using keyboard by clicking on the respective value labels
+- IR Slot Level parameter range rescaled from -18/+18 dB to -96/+18 dB
+- IR files can now be dragged and dropped into the interface for loading
+- Added OSX 10.15 Catalina support
+
+Version 1.1.2:
+- Fixed bug causing VST3 and AAX versions to not recall project settings correctly
+
+Version 1.1.1:
+- Fixed wrong IRs list sorting on IR Browser view
+
+Version 1.1.0:
+- Export function now normalizing output IR to -0.2dB
+- Export function now adding .wav extension when not specified
+- LPF now bypassed when set to maximum frequency value
+- HPF now bypassed when set to minimum frequency value
+- Fixed bug causing Freeze and Export funtions to misbehave after unloading IRs from the slots

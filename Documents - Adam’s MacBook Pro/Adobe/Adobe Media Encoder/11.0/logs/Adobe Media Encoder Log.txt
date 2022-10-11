@@ -1,0 +1,9 @@
+Log file created: Fri Mar  9 20:04:15 2018
+-------------------------------------------
+Ticks = 359      <140736238478272> <AMEApp> <0> Dolby codec permission check failed
+Ticks = 5320      <140736238478272> <AMEApp> <0> Time taken to load MediaCore plugins: 4137.68 milliseconds.
+Ticks = 6643      <140736238478272> <AMEApp> <1> Entering RunEventLoop
+Ticks = 7847      <140736238478272> <AMEApp> <1> Exited RunEventLoop
+-------------------------------------------
+Log file closed: Fri Mar  9 20:04:24 2018
+

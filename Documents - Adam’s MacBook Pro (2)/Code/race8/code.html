@@ -1,0 +1,75 @@
+<style>
+  .cube {
+    height: 240px;
+    position: relative;
+    margin: 0 auto;
+    width: 240px;
+    -webkit-transform-style: preserve-3d;
+  }
+
+  .face {
+    background-color: rgb(50, 50, 50);
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+    height: 240px;
+
+    position: absolute;
+    width: 240px;
+  }
+
+  .cube .one {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62387dead39480516b129c70_image%20cube-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: rotateX(90deg) translateZ(120px);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+
+  .cube .two {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62387de934023ec59950fc83_image%20cube-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: translateZ(120px);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+
+  .cube .three {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62387de9497aeb4338370ee2_image%20cube-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: rotateY(90deg) translateZ(120px);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+
+  .cube .four {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62387de935a32110426df78e_image%20cube.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: rotateY(180deg) translateZ(120px);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+
+  .cube .five {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62388bf2518cdc1faf200937_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: rotateY(-90deg) translateZ(120px);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+
+  .cube .six {
+    background: url("https://uploads-ssl.webflow.com/6237dee8a53e58150848b491/62387de934023ec59950fc83_image%20cube-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: rotateX(-90deg) translateZ(120px) rotate(180deg);
+    border: 4px solid rgb(255, 255, 255, 0.2);
+  }
+</style>
+
+<div class="cube">
+  <div class="face one"></div>
+  <div class="face two"></div>
+  <div class="face three"></div>
+  <div class="face four"></div>
+  <div class="face five"></div>
+  <div class="face six"></div>
+</div>

@@ -1,0 +1,18 @@
+Machine:   adams-mbp in domain 
+User:      adambagusmuflihun
+Mode:      64-Bit
+Display:   Display not detectable
+Driver:    Driver not detectable
+CPU:       Name: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+           Model: 94, Family: 6, Stepping: 3 
+           Total Threads: 8
+           Features: MMX SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 AES AVX AVX2 FMA F16C POPCNT RDTSCP RDRAND
+Base path: /Applications/Adobe Premiere Pro CC 2018/Adobe Premiere Pro CC 2018.app/Contents/MacOS/
+Arguments: 
+
+10:04:42 [IrLog]           LogFile initialized
+10:04:42 [GlobalSettings]  Loading user settings from /Users/adambagusmuflihun/Documents/Adobe/Lumetri/9.0/settings/User_Settings.xml
+10:46:22 [GlobalSettings]  Last object UID: 0x0012F069
+10:46:22 [IrLog]           Closing log file
+
+04/24/18
